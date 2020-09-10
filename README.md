@@ -1,4 +1,6 @@
 ## Tutorial on DApp - Museum Pass Card Promotions
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+
 Note: This tutorial follows the logic of [The Ultimate Ethereum Dapp Tutorial](https://www.dappuniversity.com/articles/the-ultimate-ethereum-dapp-tutorial)
 
 ### Background
