@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Museum Pass Card</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- customize -->
+    <link href="css/museum.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+
+      <h3 class="web_title">Museum Pass Card Promotions</h2>
+      <p class="web_note">Get the pass card and enjoy one-day free trip!</p>
+
+      <hr>
+
+      <div id="loader">
+            <p class="text-center">Loading...</p>
+      </div>
+
+      <div id="content" style="display: none;">
+
+      <div class="row_museum" id="card_museums">
+
+      </div>
+
+        <hr>
+
+        <div class="get_museum">
+          <h4 class="count_title">Your pass cards: <span id="count">0</span> so far</h4>
+          <p id="accountAddress" class="text-center">12345</p>
+
+          <div class="row_museum" id="user_cards">
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer">
+      <small class="text-muted">2020 @ Qianyue Zhang</small>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,119 @@
+.web_title {
+  text-align: center;
+}
+
+.web_note {
+  text-align: center;
+}
+
+hr {
+  margin: 5px 0px 10px 0px;
+}
+
+.row_museum {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.card_museum {
+  width: 49%;
+  min-height: 220px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #3399ff;
+  border-radius: 16px;
+  margin-bottom: 10px;
+}
+
+.card_museum .left {
+  width: 38%;
+  height: 99%;
+}
+
+.left .image {
+  height: 100%;
+  width: 95%;
+  display: flex;
+  align-items: center;
+  background-color: #cce6ff;
+  border-radius: 16px 0px 0px 16px
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px 0px 0px 16px;
+}
+
+.card_museum .right {
+  width: 62%;
+}
+
+.right .card-title {
+  text-align: center;
+}
+
+.right .card-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  color: #1a8cff;
+}
+
+.card-button #amount {
+  font-weight: bold;
+  margin: 0px 3px 0px 3px;
+}
+
+.card-button button {
+  margin-right: 4%;
+  margin-left: 20%
+}
+
+.right .card-note {
+  color: #1a8cff;
+  font-style: italic;
+}
+
+.card-note #date {
+  font-weight: bold;
+  font-style: normal;
+}
+
+.count_title {
+  text-align: center;
+}
+
+.user_card {
+  border-color: #33cc33;
+}
+
+.user_card .left .image{
+  background-color: #c2f0c2;
+}
+
+.user_card .right .card-note {
+  color: #29a329;
+}
+
+.user_card .right .card-button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  font-weight: bolder;
+  font-size: large;
+  color: #29a329;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0px 30px 0px;
+}
